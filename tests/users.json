@@ -1,0 +1,40 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Successful authentication"
+    },
+
+    {
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Unsuccessful authentication"
+    },
+
+    {
+        "username": "problem_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Successful authentication"
+    },
+
+    {
+        "username": "performance_glitch_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Successful authentication"
+    },
+
+    {
+        "username": "error_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Successful authentication"
+    },
+
+    {
+        "username": "visual_user",
+        "password": "secret_sauce",
+        "expectedOutcome": "Successful authentication"
+    }
+]
+
+
+
