@@ -24,7 +24,7 @@ test.describe('Applause E2E coding exercise', () => {
     await cartPage.proceedToCheckout();
 
     const checkoutPage = new CheckoutPage(page);
-    await checkoutPage.checkout('Harry', 'Singh', '76063');
+    await checkoutPage.checkout('Harry', 'Singh', '95132');
 
     const checkoutOverviewPage = new CheckoutOverviewPage(page);
     await checkoutOverviewPage.completeCheckout();
