@@ -3,17 +3,16 @@ class LoginPage {
     constructor(page) 
     {
       this.page = page;
-      this.usernameInput = '#user-name'
+      this.emailInput = '#email'
       this.passwordInput = '#password'
-      this.loginButton = '#login-button'
-      this.errorButton = '.error-button'
-      this.errorMessage = '.error-message';
+      this.submitButton = 'button[class*="submit-btn"]'
+    
     }
   
     async login(username, password) {
-      await this.page.fill(this.usernameInput, username);
+      await this.page.fill(this.emailInput, username);
       await this.page.fill(this.passwordInput, password);
-      await this.page.click(this.loginButton);
+      await this.page.click(this.submitButton);
     }
 
     async isErrorVisible() {
